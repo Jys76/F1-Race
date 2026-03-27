@@ -1,6 +1,10 @@
 
+*{
+    color-scheme: dark;
+}
+
 body{
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(102, 102, 102);
     padding: 0;
     margin: 0;
 }
@@ -12,12 +16,12 @@ body{
 #navbar{
     display: flex;
     align-items: center;
-    background-color: rgb(170, 74, 74);
+    background-color: rgba(138, 138, 138, 0.2);
     padding: 10px 40px;
-    margin-top: 20px;
     border: 1px solid black;
     box-shadow: 3px 3px 2px black;
 }
+
 
 #navbar_right{
     display: flex;
@@ -26,18 +30,23 @@ body{
 }
 
 #navbar_right a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
 
 #navbar_right a:hover{
-    color: white;
+    color: rgb(145, 27, 27);
+    text-decoration: underline;
 }
+
+
+
+
 
 #navigation_section{
     display: flex;
-    background-color:rgb(95, 95, 95);
+    background-color:rgba(0, 0, 0, 0.2);
     padding: 20px 30px;
     margin-top: 30px;
     border: 1px solid black;
@@ -52,22 +61,24 @@ body{
 
 #links a{
     display: flex;
-    color: black;
+    color: rgb(190, 190, 190);
     text-decoration: none;
-    background-color: rgb(170, 74, 74);
-    padding: 5px 10px;
+    background-color: rgb(46, 46, 46);
+    padding: 5px 20px;
     border: 1px solid black;
     box-shadow: 3px 3px 2px black;
 }
 
 #links a:hover{
-    color: white;
-    background-color: rgb(145, 57, 57);
+    color: rgb(241, 128, 128);
+    background-color: rgb(70, 70, 70);
 }
 
 #leclerc{
     display: flex;
     margin-left: auto;
-    border: 1px solid black;
-    box-shadow: 3px 3px 2px black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 3px solid rgb(116, 116, 116);
+    border-right: 3px solid rgb(116, 116, 116);
 }

@@ -1,4 +1,7 @@
 
+<?php
+    require_once(__DIR__ . '/core/path_config.php');
+?>
 
 <html>
     <head> 
@@ -13,17 +16,19 @@
                     <h1>F1 Race</h1>
                 </div>
                 <div id="navbar_right">
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
+                    <a href="<?=LOGIN_URL?>">Login</a>
+                    <a href="<?=REGISTER_URL?>">Register</a>
                 </div>
             </div>
 
             <div id="navigation_section">
                 <div id="links">
-                    <a href="#">Piste</a>
-                    <a href="#">Championship</a>
-                    <a href="#">Leaderboard</a>
-                    <a href="#">Prenota Championship</a>
+                    <!--Visible-->
+                    <a href="<?=TRACK_URL?>">Piste</a>
+                    <a href="<?=CHAMP_URL?>">Championship</a>
+                    <a href="<?=BOARD_URL?>">Leaderboard</a>
+                    <!--Not visible-->
+                    <a href="<?=PRENO_URL?>">Prenota Championship</a>
                 </div>
 
                 <div id="leclerc">

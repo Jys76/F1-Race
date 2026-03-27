@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    box-sizing: border-box;
+    width: 30%;
+    height: 50%;
+    background-color:rgba(0, 0, 0, 0.2);
+    padding: 2%;
+}
+
+#center a{
+    margin-left: auto;
+}
+
+#register_form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 3%;
+    color: rgb(24, 24, 24);
+}
+
+#register_form div{
+    display: flex;
+}
+
+#register_form div label{
+    display: flex;
+    width: 30%
+}  
+
+#register_form div input{
+    width: 50%;
+    background-color: rgb(190, 190, 190);
+}
+
+#register_form button{
+    margin-left: auto;
+    width: 30%;
+    margin-top: 7%;
+    background-color: rgb(189, 189, 189);
+}
+
+#register_form button:hover{
+    cursor: pointer;
+    color: rgb(184, 29, 29);
+    background-color: rgb(151, 151, 151);
+}

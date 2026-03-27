@@ -1,2 +1,0 @@
-DROP DATABASE IF EXISTS sun_f1race;
-CREATE DATABASE sun_f1race;
