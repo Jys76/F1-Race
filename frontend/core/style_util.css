@@ -1,0 +1,50 @@
+
+.general_border{
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px black;
+}
+
+.general_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+    background-color: rgb(46, 46, 46);
+    padding: 5px 20px;
+}
+
+.general_button:hover{
+    cursor: pointer;
+    color: rgb(243, 119, 119);
+    background-color: rgb(70, 70, 70);
+}
+
+
+
+.general_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    color: rgb(212, 212, 212);
+}
+
+.general_link:hover{
+    color: rgb(184, 184, 184);
+    background-color: rgb(92, 92, 92);
+}
+
+.general_font{
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+}

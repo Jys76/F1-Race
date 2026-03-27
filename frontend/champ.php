@@ -6,6 +6,7 @@
     <head>
         <title>F1 Championships</title>
         <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="core/style_util.css">
     </head>
     <body>
         <div id="navbar">
