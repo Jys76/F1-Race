@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(207, 207, 207);
+    color: rgb(221, 221, 221);
     text-decoration: none;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(61, 61, 61);
     padding: 5px 20px;
 }
 
@@ -32,11 +32,7 @@
     text-decoration: none;
     font-size: 20px;
     padding: 10px 20px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid gray;
-    border-right: 2px solid gray;
-    color: rgb(212, 212, 212);
+    color: rgb(226, 226, 226);
 }
 
 .general_link:hover{
@@ -45,6 +41,22 @@
 }
 
 .general_font{
-    color: rgb(212, 212, 212);
+    color: rgb(224, 224, 224);
     text-decoration: none;
+}
+
+
+.background_color{
+    background-color: rgb(150, 150, 150);
+}
+
+.background_color_2{
+    background-color: rgb(114, 114, 114);
+}
+
+.inner_border{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
 }

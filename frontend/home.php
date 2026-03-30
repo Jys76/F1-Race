@@ -9,20 +9,20 @@
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="core/style_util.css">
     </head>
-    <body>
+    <body class="background_color">
         <div id="inner_body">
 
-            <div id="navbar" class="general_border">
+            <div id="navbar" class="general_border background_color_2">
                 <div id="navbar_title">
                     <h1 class="general_font">F1 Race</h1>
                 </div>
                 <div id="navbar_right">
-                    <a href="<?=LOGIN_URL?>" class="general_link">Login</a>
-                    <a href="<?=REGISTER_URL?>" class="general_link">Register</a>
+                    <a href="<?=LOGIN_URL?>" class="general_link inner_border">Login</a>
+                    <a href="<?=REGISTER_URL?>" class="general_link inner_border">Register</a>
                 </div>
             </div>
 
-            <div id="navigation_section" class="general_border">
+            <div id="navigation_section" class="general_border background_color_2">
                 <div id="links">
                     <!--Visible-->
                     <a href="<?=TRACK_URL?>" class="general_border general_button">Piste</a>
@@ -32,7 +32,7 @@
                     <a href="<?=PRENO_URL?>" class="general_border general_button">Prenota Championship</a>
                 </div>
 
-                <div id="leclerc">
+                <div id="leclerc" class="inner_border">
                     <img src="img/Leclerc.jpg" alt="Charles Leclerc">
                 </div>
             </div>
