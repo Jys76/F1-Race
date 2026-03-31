@@ -8,4 +8,14 @@
                 (?, ?, ?)
         ";
     }
+
+    function login_select_query(){
+        return "
+            SELECT 1
+            FROM clie
+            WHERE 
+                username = ? &&
+                password = ?
+        ";
+    }
 ?>

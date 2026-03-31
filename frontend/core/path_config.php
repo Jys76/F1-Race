@@ -1,6 +1,6 @@
 
 <?php
-    define('ROOT_URL', '/Sun/F1-Race');
+    define('ROOT_URL', '/F1-Race');
     define('ROOT_PATH', __DIR__ . '/../..');
 
     #HOME

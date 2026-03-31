@@ -1,1 +1,50 @@
 
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inner_body{
+    box-sizing: border-box;
+    margin: 25vh 35vw;
+    padding: 20px 30px;
+    height: 50vh;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#navbar a{
+    margin-left: auto;
+}
+
+
+#login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+#login_form div{
+    display: flex;
+}
+
+#login_form label{
+    margin-left: 20px;
+    width: 100px;
+}
+
+#login_form input{
+    width: 200px;
+}
+
+#login_form button{
+    width: 150px;
+    margin-left: auto;
+}

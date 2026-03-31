@@ -13,7 +13,7 @@
     <body class="background_color">
         <div id="center" class="general_border background_color_2">
             <div id="navbar">
-                <p class="general_font">F1 Race</p>
+                <p>F1 Race</p>
                 <a href="<?=HOME_URL?>" class="general_link inner_border">Home</a>
             </div>
             
@@ -21,15 +21,15 @@
             <form action="" method="POST" id="register_form">
                 <div>
                     <label for="username" class="general_font">Username</label>
-                    <input type="text" name="username">
+                    <input type="text" name="username" class="general_input" placeholder="insert">
                 </div>
                 <div>
                     <label for="" class="general_font">Email</label>
-                    <input type="text" name="email">
+                    <input type="text" name="email" class="general_input" placeholder="insert">
                 </div>
                 <div>
                     <label for="" class="general_font">Password</label>
-                    <input type="password" name="password">
+                    <input type="password" name="password" class="general_input" placeholder="insert">
                 </div>
 
                 <button type="submit" class="general_button">Register</button>

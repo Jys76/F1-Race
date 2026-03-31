@@ -1,6 +1,7 @@
 <?php
     function get_conn(){
-        $conn = mysqli_connect('localhost', "sun", "sun53", "sun_f1race");
+        #$conn = mysqli_connect('localhost', "sun", "sun53", "sun_f1race");
+        $conn = mysqli_connect('127.0.0.1:3306', "secondary", "secondary2026", "sun_f1race");
         if($conn -> connect_error){
             die("Connection failed . $conn -> connect_error");
         }
@@ -35,6 +36,10 @@
             
             call_user_func_array([$stmt, 'bind_param'], $bind_names);
         }
+        
+        if (!$stmt->execute()) {
+            die("Execute error: " . $stmt->error);
+        }
 
-        $stmt->execute();
+        return $stmt;
     }
