@@ -1,0 +1,46 @@
+
+*{
+    color-scheme: dark;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#inner_body{   
+    padding: 0 20%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+
+#navbar_right{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+#navigation_section{
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#leclerc{
+    display: flex;
+    margin-left: auto;
+}

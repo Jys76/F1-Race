@@ -1,0 +1,43 @@
+
+<?php
+    require_once(__DIR__ . '/core/path_config.php');
+    require_once(__DIR__ . '/back/home_back.php');
+?>
+
+<html>
+    <head> 
+        <title>F1 Race</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="core/style_util.css">
+    </head>
+    <body class="background_color">
+        <div id="inner_body">
+
+            <div id="navbar" class="general_border background_color_2">
+                <div id="navbar_title">
+                    <h1 class="general_font">F1 Race</h1>
+                </div>
+                <div id="navbar_right">
+                    <?=$links ?? ""?>
+                </div>
+            </div>
+
+            <div id="navigation_section" class="general_border background_color_2">
+                <div id="links">
+                    <!--Visible-->
+                    <a href="<?=TRACK_URL?>" class="general_border general_button">Piste</a>
+                    <a href="<?=CHAMP_URL?>" class="general_border general_button">Championship</a>
+                    <!--Not visible-->
+                    <a href="<?=BOOK_URL?>" class="general_border general_button">Prenota gran premio</a>
+                </div>
+
+                <div id="leclerc" class="inner_border">
+                    <img src="img/Leclerc.jpg" alt="Charles Leclerc">
+                </div>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

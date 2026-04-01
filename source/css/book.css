@@ -1,0 +1,33 @@
+
+#content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 76%;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+#prix_select_form{
+    display: none;
+}
+
+#prix_table{
+    width: 100%;
+}
+
+
+#prix_table td{
+    padding: 4px 8px;
+    border: 1px solid black;
+}
+
+.book_buttons{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 138, 138);
+}
+
+.book_buttons:hover{
+    color: rgb(197, 197, 197);
+}

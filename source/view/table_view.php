@@ -80,4 +80,28 @@
 
         return $table;
     }
+
+
+
+
+    function prix_table_view($result){
+        $table = "";
+        while($row = $result->fetch_assoc()){
+            ob_start();
+            ?>
+            <tr>
+                <td class="table_background"><?=htmlspecialchars($row['cham_name'])?></td>
+                <td class="table_background"><?=htmlspecialchars($row['track_name'])?></td>
+                <td class="table_background"><?=htmlspecialchars($row['start_date'])?></td>
+                <td class="table_background"><?=htmlspecialchars($row['end_date'])?></td>
+                <td 
+                    class="book_buttons"
+                    data-id_prix="<?=htmlspecialchars($row['id_track'])?>"
+                ><div>[Prenota]</div></td>
+            </tr>
+            <?php
+            $table .= ob_get_clean();
+        }
+        return $table;
+    }
 ?>

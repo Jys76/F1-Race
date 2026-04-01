@@ -11,11 +11,12 @@
 
     function login_select_query(){
         return "
-            SELECT 1
+            SELECT id, username
             FROM clie
             WHERE 
                 username = ? &&
                 password = ?
+            LIMIT 1
         ";
     }
 ?>

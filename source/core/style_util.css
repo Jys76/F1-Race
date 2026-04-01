@@ -1,4 +1,23 @@
 
+.general_body{
+    padding: 0;
+    margin: 0;
+    padding: 0 20%;
+    color-scheme: white;
+}
+
+.general_navbar{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.general_navbar_link{
+    margin-left: auto;
+}
+
 .general_border{
     border: 1px solid black;
     box-shadow: 3px 3px 2px black;

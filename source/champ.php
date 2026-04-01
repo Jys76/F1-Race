@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="css/champ.css">
         <script src="script/champ.js" defer></script>
     </head>
-    <body class="background_color">
-        <div id="navbar" class="background_color_2 general_border">
+    <body class="background_color general_body">
+        <div id="navbar" class="general_navbar background_color_2 general_border">
             <h1>F1 Championships</h1>
-            <a href="<?=HOME_URL?>" class="inner_border general_link">Home</a>
+            <a href="<?=HOME_URL?>" class="inner_border general_link general_navbar_link">Home</a>
         </div>
        <div id="content" class="background_color_2 general_border">
             <div id="champ_table_view">

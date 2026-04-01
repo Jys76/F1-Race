@@ -1,4 +1,4 @@
 <?php
-    header("Location: frontend/home.php");
+    header("Location: source/home.php");
     exit;
 ?>

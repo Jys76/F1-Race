@@ -1,6 +1,8 @@
 <?php
     require_once __DIR__ . '/../query/client.php';
     require_once __DIR__ . "/../core/query_util.php";
+    
+    session_start();
 
     $message = "";
 
@@ -22,6 +24,9 @@
             catch(Exception $e){
                 $message = "Select query error";
             }
+            $data = $result->fetch_assoc();
+            $_SESSION['username'] = $data['username'];
+            $_SESSION['clie_id'] = $data['id'];
             $num_rows == 1 ? header("Location: " . HOME_URL) : $message = "Incorrect email or password";
         }
         else{
