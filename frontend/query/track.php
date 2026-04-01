@@ -10,7 +10,7 @@
                 (
                     SELECT COUNT(*)
                     FROM prix p
-                    WHERE t.id = p.id
+                    WHERE t.id = p.id_trac
                 ) AS num_prix
             FROM trac t
         ";

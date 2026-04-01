@@ -18,7 +18,7 @@
             <a href="home.php" class="inner_border general_link">Home</a>
         </div>
 
-        <div id="content" class="background_color_2 general_border">
+        <div id="content" class="background_color_2 general_border scroll_bar">
             <?=$track_table?>
         </div>
 

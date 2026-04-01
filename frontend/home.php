@@ -27,9 +27,8 @@
                     <!--Visible-->
                     <a href="<?=TRACK_URL?>" class="general_border general_button">Piste</a>
                     <a href="<?=CHAMP_URL?>" class="general_border general_button">Championship</a>
-                    <a href="<?=BOARD_URL?>" class="general_border general_button">Leaderboard</a>
                     <!--Not visible-->
-                    <a href="<?=PRENO_URL?>" class="general_border general_button">Prenota Championship</a>
+                    <a href="<?=PRENO_URL?>" class="general_border general_button">Prenota gran premio</a>
                 </div>
 
                 <div id="leclerc" class="inner_border">

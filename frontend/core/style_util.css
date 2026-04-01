@@ -65,3 +65,25 @@
 .general_input{
     background-color: rgb(190, 190, 190);
 }
+
+.inner_background{
+    background-color: rgb(104, 104, 104);
+}
+
+.table_background{
+    background-color: rgb(160, 160, 160);
+}
+
+.table_background_2{
+    background-color: rgb(141, 141, 141);
+}
+
+.scroll_bar::-webkit-scrollbar{
+    width: 7px;
+    background-color: gray;
+}
+
+.scroll_bar::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179);
+    border-radius: 5px;
+}
