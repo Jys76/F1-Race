@@ -43,3 +43,13 @@
 
         return $stmt;
     }
+
+    function execute_default_query($conn, $sql){
+        try{
+            $result = $conn->query($sql);
+            return $result;
+        }
+        catch(Exception $e){
+            die("Query select error");
+        }
+    }

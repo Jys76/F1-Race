@@ -5,7 +5,7 @@ INSERT INTO clie (username, email, password) VALUES
     ('admin', 'admin@email', '1111');
 
 INSERT INTO trac (trac_name, img_fname, nation) VALUES
-    ('SPA' 'spa.jpg', 'Belgium'),
+    ('SPA', 'spa.jpg', 'Belgium'),
     ('Monza', 'monza.jpg', 'Italy'),
     ('Silverstone', 'silverstone.jpg', 'Great Britain'),
     ('Shangai', 'shangai.jpg', 'China'),
@@ -18,4 +18,10 @@ INSERT INTO cham (champ_name, champ_start_date, champ_end_date) VALUES
     ('Campionato 2023', '2023-03-24', '2023-12-27'),
     ('Campionato 2024', '2024-03-28', '2024-12-11'),
     ('Campionato 2025', '2025-02-28', '2025-11-10'),
-    ('Campionato 2026', '2025-03-08', '2025-12-13')
+    ('Campionato 2026', '2025-03-08', '2025-12-13');
+
+INSERT INTO prix (id_cham, id_trac, prix_start_date, prix_end_date) VALUES
+    (6, 2, '2025-03-08 13:00:00', '2025-03-08 18:00:00')
+    (6, 3, '2025-03-24 09:00:00', '2025-03-24 15:00:00')
+    (6, 5, '2025-04-12 07:00:00', '2025-04-12 11:00:00')
+    (6, 4, '2025-04-20 18:00:00', '2025-04-20 22:00:00')

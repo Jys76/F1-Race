@@ -1,0 +1,29 @@
+
+#content{
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100%;
+    height: 80%;
+    padding: 20px 30px;
+}
+
+#track_table td{
+    padding: 4px 8px 6px 8px;
+    border: 1px solid black;
+    background-color: rgb(153, 153, 153);
+}
+
+#track_table td:nth-child(2){
+    width: 2%;
+}
+#track_table td:nth-child(2){
+    width: 28%;
+}
+
+#track_table td:nth-child(3){
+    width: 60%;
+}
+
+#track_table td:nth-child(4){
+    width: 10%;
+}
